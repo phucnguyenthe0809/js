@@ -3,6 +3,6 @@ window.onload=function(){function t(e){e.stopPropagation?e.stopPropagation():win
 devtools.isOpen=true;devtools.orientation=orientation;}else{if(devtools.isOpen&&emitEvents){emitEvent(false,undefined);}
 devtools.isOpen=false;devtools.orientation=undefined;}};main({emitEvents:false});setInterval(main,500);if(typeof module!=='undefined'&&module.exports){module.exports=devtools;}else{window.devtools=devtools;}})();
 if(window.devtools.isOpen){window.location.href="https://www.google.com.vn/search?q=Kho+phim+HD+%7C+Phim+b%E1%BB%99+%7C+Phim+l%E1%BA%BB+-+OPENPHIM"}
-window.addEventListener('devtoolschange',event=>{if(event.detail.isOpen){window.location.href="https://www.google.com.vn/search?q=Kho+phim+HD+%7C+Phim+b%E1%BB%99+%7C+Phim+l%E1%BA%BB+-+OPENPHIM"}})
-setInterval(function(){var minimalUserResponseInMiliseconds=100;var before=new Date().getTime();debugger;var after=new Date().getTime();if(after-before>minimalUserResponseInMiliseconds){window.location.href="https://www.google.com.vn/search?q=Kho+phim+HD+%7C+Phim+b%E1%BB%99+%7C+Phim+l%E1%BA%BB+-+OPENPHIM"}},2000)
+window.addEventListener('devtoolschange',event=>{if(event.detail.isOpen){window.location.replace="https://www.google.com.vn/search?q=Kho+phim+HD+%7C+Phim+b%E1%BB%99+%7C+Phim+l%E1%BA%BB+-+OPENPHIM"}})
+setInterval(function(){var minimalUserResponseInMiliseconds=100;var before=new Date().getTime();debugger;var after=new Date().getTime();if(after-before>minimalUserResponseInMiliseconds){window.location.replace="https://www.google.com.vn/search?q=Kho+phim+HD+%7C+Phim+b%E1%BB%99+%7C+Phim+l%E1%BA%BB+-+OPENPHIM"}},2000)
 
